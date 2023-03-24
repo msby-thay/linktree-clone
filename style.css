@@ -8,7 +8,8 @@ body{
     font-family: sans-serif;
     background-image: url('https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZ1bmRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: 500px;
     max-width: 300px;
     margin: 50px auto;
 }
@@ -23,11 +24,20 @@ main{
 .img_me{
     border-radius: 50%;
     margin: 0 auto;
+    box-shadow: 0px 0px 8px #4a6397;
 }
-
-.bio, .welcome{
+.welcome{
     text-align: center;
     color: #fff;
+    font-size: 20px;
+}
+.bio, .hobbies, .list_hobbies{
+    text-align: center;
+    color: #fff;
+}
+
+.list_hobbies{
+    text-align: left;
 }
 
 .btn_sm{
